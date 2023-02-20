@@ -1,0 +1,67 @@
+
+html {
+  height: 100%;
+  width: 100%;
+}
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #77bfa3;
+  padding:10px
+}
+
+section {
+  text-align: center;
+  width: 50%;
+  margin: 5% auto;
+}
+body {
+  background-color:#edeec9;
+}
+
+h1{
+  font-size:40px;
+  font-family:"Comic Sans MS";
+  letter-spacing:2px;
+}
+h2 {
+  font-size:20px;
+  font-family:cursive;
+}
+a,p,ul,ol,footer{
+  font-size:12px;
+  font-family:"Verdana";
+  font-style:italic;
+  line-height:24px;
+}
+nav a{
+  margin:10%;
+}
+
+p,ul,ol {
+  text-align: left;
+}
+header p{
+  text-align: center;
+}
+hr {
+	height: 32px;
+	border: none;
+	background-image: url("image/mickey-mouse.png");
+  background-size:30px;
+  
+}
+
+a:hover{
+  color:red;
+}
+footer{
+  background-color:#98c9a3;
+  color:black;
+  padding:5%;
+  text-align:center
+}
+iframe {
+  width:100%;
+  margin:auto;
+}

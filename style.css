@@ -10,6 +10,10 @@ header {
   background-color: #77bfa3;
   padding:10px
 }
+img {
+  width:100%;
+}
+
 /* center all the sections*/
 section {
   text-align: center;

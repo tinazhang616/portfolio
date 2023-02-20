@@ -3,28 +3,25 @@ html {
   height: 100%;
   width: 100%;
 }
-/* make the header has full width*/
+img {
+  width:100%
+}
 header {
   width: 100%;
   text-align: center;
   background-color: #77bfa3;
   padding:10px
 }
-img {
-  width:100%;
-}
 
-/* center all the sections*/
 section {
   text-align: center;
   width: 50%;
   margin: 5% auto;
 }
-/*set the body yellow color*/
 body {
   background-color:#edeec9;
 }
-/* set h1,h2 font-size,family*/
+
 h1{
   font-size:40px;
   font-family:"Comic Sans MS";
@@ -34,25 +31,22 @@ h2 {
   font-size:20px;
   font-family:cursive;
 }
-/* set all the left font size,family except h1 and h2*/
 a,p,ul,ol,footer{
   font-size:12px;
   font-family:"Verdana";
   font-style:italic;
   line-height:24px;
 }
-/* let navigators are centered and have equal space between them*/
 nav a{
   margin:10%;
 }
-/*set all the text align left except header, footer and h2*/
+
 p,ul,ol {
   text-align: left;
 }
 header p{
   text-align: center;
 }
-/* set a picture to the hr line*/
 hr {
 	height: 32px;
 	border: none;

@@ -50,7 +50,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) and Integration of third party services"),
+    emoji(
+      "⚡ Progressive Web Applications ( PWA ) and Integration of third party services"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -88,7 +90,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -102,13 +104,13 @@ const educationInfo = {
       schoolName: "California University of Management and Science",
       logo: require("./assets/images/california-university-of-management-and-sciences-removebg-preview.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "October 2016 - May 2018",
+      duration: "October 2016 - May 2018"
     },
     {
       schoolName: "Huazhong University of Science and Technology",
       logo: require("./assets/images/hustllogo.png"),
       subHeader: "Bachelor of Architectural",
-      duration: "September 2004 - June 2008",
+      duration: "September 2004 - June 2008"
     }
   ]
 };
@@ -150,6 +152,30 @@ const workExperiences = {
         " Developed and deployed mobile-first applications while learning new languages and frameworks, spending several hours per week collaborating with and learning from senior web developers in a mentor-student relationship"
       ]
     },
+    {
+      role: "Project Manager",
+      company: "REALTY YKP GROUP",
+      companylogo: require("./assets/images/ykp-logo.jpeg"),
+      date: "Sep 2021 – Nov 2022",
+
+      descBullets: [
+        "Managed the new building and remodeling of residential projects in southern California.",
+        "Developed key performance goals and managed the performance of staff.",
+        "Created and implemented strategies for business growth, including e-commerce, and traditional construction."
+      ]
+    },
+    {
+      role: "Project Manager",
+      company: "Glory Investment",
+      companylogo: require("./assets/images/YKP logo 2.png"),
+      date: "May 2017 – Nov 2020",
+
+      descBullets: [
+        " Managed the design and construction of a shopping plaza at Jurupa Valley, CA. Total Space: 50,000 SF; Total construction value: $10 million.",
+        "Created 3D modeling to virtualize the project, flexibility study to closing phase (handover to owner) including interviewing and selecting the design and construction team, coordinating with the city, design and construction schedule planning, total cost estimate and planning, and risk management. ",
+        "Oversaw projects and solving design problems that arose during construction."
+      ]
+    }
   ]
 };
 
@@ -191,7 +217,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -252,7 +278,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -260,8 +286,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+01 6262179631",
+  email_address: "tinazhang616@gmail.com"
 };
 
 // Twitter Section

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://tinazhang616.github.io/portfolio/",
+  "homepage": "./",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,6 @@
     "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^2.2.0",
     "jest-canvas-mock": "^2.3.1",
-    "quantize": "^1.0.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.8.1",

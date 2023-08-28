@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Project Manager",
       company: "Glory Investment",
-      companylogo: require("./assets/images/YKP logo 2.png"),
+      companylogo: require("./assets/images/ykp-logo-1.png"),
       date: "May 2017 – Nov 2020",
 
       descBullets: [

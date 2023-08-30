@@ -191,33 +191,32 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "We Love Movies",
+      projectDesc: "RESTful API and PostgreSQL database",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://we-love-movie-b8dk.onrender.com"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Restaurant Reservation",
+      projectDesc: "A fullstack reservation and table management system",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://restaurant-client-26cm.onrender.com/"
         }
       ]
     }
   ],
-  display: false// Set false to hide this section, defaults to true
+  display: true// Set false to hide this section, defaults to true
 };
 
 // Achievement Section

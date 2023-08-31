@@ -155,7 +155,7 @@ const workExperiences = {
     {
       role: "Project Manager",
       company: "REALTY YKP GROUP",
-      companylogo: require("./assets/images/ykp-logo.jpeg"),
+      companylogo: require("./assets/images/glory.png"),
       date: "Sep 2021 – Nov 2022",
 
       descBullets: [

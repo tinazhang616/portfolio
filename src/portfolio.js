@@ -193,7 +193,7 @@ const bigProjects = {
   title: "Big Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/emotions_movies_header.jpg"),
       projectName: "We Love Movies",
       projectDesc: "RESTful API and PostgreSQL database",
       footerLink: [
@@ -205,7 +205,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/FooterBowl_Small.webp"),
       projectName: "Restaurant Reservation",
       projectDesc: "A fullstack reservation and table management system",
       footerLink: [

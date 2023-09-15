@@ -231,8 +231,8 @@ const achievementSection = {
     {
       title: "Responsive Web Design",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Completed Certification from FreeCodeCamp for Responsive Web Design",
+      image: require("./assets/images/cover-responsive.png"),
       imageAlt: "Responsive Web Design",
       footerLink: [
         {

@@ -45,10 +45,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "VERSATILE FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "VERSATILE FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive full stack system for your web and mobile applications"
     ),
     emoji(
       "⚡ Progressive Web Applications ( PWA ) and Integration of third party services"
@@ -130,7 +131,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "50%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -142,6 +143,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full Stack Engineer",
+      company: "Chris and Company",
+      companylogo: require("./assets/images/glory.png"),
+      date: "Sep 2023 – Present",
+
+      descBullets: [
+        "Assisted in requirements analysis, high-level design, low-level design, and complex code development",
+        "Collaborated with 3 engineering and design teams to integrate external APIs into web pages and applications",
+        "Wrote front-end code, and back-end code, integrated 4+ with frameworks and APIs under mentor supervision",
+        "Weekly meeting with client to identify needs and modify as required"
+      ]
+    },
+    {
       role: "Full Stack Engineer in Training",
       company: "Thinkful",
       companylogo: require("./assets/images/thinkful-logo-2.png"),
@@ -150,18 +164,6 @@ const workExperiences = {
       descBullets: [
         " Learned industry best practices and software development standards with a focus on Javascript, HTML5, CSS3, React Native, Node.js, PostgreSQL, RESTful API's, algorithms, and data structures",
         " Developed and deployed mobile-first applications while learning new languages and frameworks, spending several hours per week collaborating with and learning from senior web developers in a mentor-student relationship"
-      ]
-    },
-    {
-      role: "Project Manager",
-      company: "REALTY YKP GROUP",
-      companylogo: require("./assets/images/glory.png"),
-      date: "Sep 2021 – Nov 2022",
-
-      descBullets: [
-        "Managed the new building and remodeling of residential projects in southern California.",
-        "Developed key performance goals and managed the performance of staff.",
-        "Created and implemented strategies for business growth, including e-commerce, and traditional construction."
       ]
     },
     {
@@ -216,7 +218,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true// Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -238,9 +240,9 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.freecodecamp.org/certification/TingZhang/responsive-web-design"
-        },
+        }
       ]
-    },
+    }
     // {
     //   title: "Google Assistant Action",
     //   subtitle:

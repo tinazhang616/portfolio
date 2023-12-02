@@ -49,11 +49,11 @@ const Main = () => {
             <Greeting />
             <Skills />
             <StackProgress />
-            <Education />
+            <Achievement />
             <WorkExperience />
             <Projects />
             <StartupProject />
-            <Achievement />
+            <Education />
             <Profile />
             <ScrollToTopButton />
           </>

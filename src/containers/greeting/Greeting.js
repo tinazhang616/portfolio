@@ -35,6 +35,8 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
+                <h5>{greeting.title2}</h5>
+                <br />
                 {greeting.subTitle}
               </p>
               <SocialMedia />

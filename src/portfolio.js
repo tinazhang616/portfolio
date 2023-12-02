@@ -22,6 +22,7 @@ const illustration = {
 const greeting = {
   username: "Ting Zhang",
   title: "Hi all, I'm Ting",
+  title2: "Stay curious and keep learning forever",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -91,6 +92,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -104,7 +109,7 @@ const educationInfo = {
     {
       schoolName: "California University of Management and Science",
       logo: require("./assets/images/california-university-of-management-and-sciences-removebg-preview.png"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader: "Master of Management and Science",
       duration: "October 2016 - May 2018"
     },
     {
@@ -159,7 +164,7 @@ const workExperiences = {
       role: "Full Stack Engineer in Training",
       company: "Thinkful",
       companylogo: require("./assets/images/thinkful-logo-2.png"),
-      date: "Feb 2023 – Present",
+      date: "Feb 2023 – Sep 2023",
 
       descBullets: [
         " Learned industry best practices and software development standards with a focus on Javascript, HTML5, CSS3, React Native, Node.js, PostgreSQL, RESTful API's, algorithms, and data structures",
@@ -173,9 +178,10 @@ const workExperiences = {
       date: "May 2017 – Nov 2020",
 
       descBullets: [
-        " Managed the design and construction of a shopping plaza at Jurupa Valley, CA. Total Space: 50,000 SF; Total construction value: $10 million.",
-        "Created 3D modeling to virtualize the project, flexibility study to closing phase (handover to owner) including interviewing and selecting the design and construction team, coordinating with the city, design and construction schedule planning, total cost estimate and planning, and risk management. ",
-        "Oversaw projects and solving design problems that arose during construction."
+        "Oversaw the planning and construction of a 50,000 sq. ft. shopping plaza in Jurupa Valley, CA, with a construction budget of $10 million",
+        "Managed the development of a 270,000 sq. ft. Campus Hotel at UC Riverside, CA, with a total project cost of $35 million",
+        "Conducted interviews and selected the design and construction teams for both projects",
+        "Coordinated with the city, design, and construction teams to ensure projects remained within budget, adhered to schedules, and met quality standards from initial planning through completion"
       ]
     }
   ]
@@ -195,13 +201,14 @@ const bigProjects = {
   title: "Big Projects",
   projects: [
     {
-      image: require("./assets/images/emotions_movies_header.jpg"),
-      projectName: "We Love Movies",
-      projectDesc: "RESTful API and PostgreSQL database",
+      image: require("./assets/images/staging.png"),
+      projectName: "Virtual Staging Solutions",
+      projectDesc:
+        "RESTful API and PostgreSQL database, Frontend and Backend design",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://we-love-movie-b8dk.onrender.com"
+          url: "https://virtual-staging.onrender.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -242,34 +249,47 @@ const achievementSection = {
           url: "https://www.freecodecamp.org/certification/TingZhang/responsive-web-design"
         }
       ]
-    }
-    // {
-    //   title: "Google Assistant Action",
-    //   subtitle:
-    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-    //   image: require("./assets/images/googleAssistantLogo.webp"),
-    //   imageAlt: "Google Assistant Action Logo",
-    //   footerLink: [
-    //     {
-    //       name: "View Google Assistant Action",
-    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-    //     }
-    //   ]
-    // },
+    },
+    {
+      title: "Flex Engineering Program",
+      subtitle:
+        "Learned industry practices and software development standards.Developed and deployed mobile-first applications.",
+      image: require("./assets/images/thinkful.png"),
+      imageAlt: "Google Assistant Action Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://drive.google.com/file/d/16Rqs5KHomG5Oyjz5OLbTq_o7hDMPrdre/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Project Management Professional (PMP)®",
+      subtitle:
+        "Motivating people and teams through all phases of a successful project.",
+      image: require("./assets/images/pmp.png"),
+      imageAlt: "PMP",
+      footerLink: [
+        {
+          name: "View PMP Certification",
+          url: "https://drive.google.com/file/d/1FbFz29IT0hXlHen65kbS4mQ77BerDAMw/view?usp=sharing"
+        }
+      ]
+    },
 
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   imageAlt: "PWA Logo",
-    //   footerLink: [
-    //     {name: "Certification", url: ""},
-    //     {
-    //       name: "Final Project",
-    //       url: "https://pakistan-olx-1.firebaseapp.com/"
-    //     }
-    //   ]
-    // }
+    {
+      title: "LEED Green Associate",
+      subtitle:
+        "Empowered to advance green building practices and skills at work and in the community",
+      image: require("./assets/images/LEED.png"),
+      imageAlt: "leed green associate",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1aOuHpzG4iWtjzT4-ddossAnVCimZ15uW/view?usp=sharing"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
